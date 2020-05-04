@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Oracle</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="backdropImage" src="background.jpg" alt="backdrop">
+
+    <div class="mainFrame">
+        <div class="innerFrame">
+                <input id="textInput" type="text" placeholder="Ask your question here!" onkeydown="if(event.keyCode === 13)rndmTest()">
+
+                <button class="questionBtn" id="Btn" onclick="rndmTest()">
+                Press for Answer</button>
+
+                <div class="divText" id="divOutput">Answer Comes here!</div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>

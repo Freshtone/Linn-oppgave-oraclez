@@ -1,0 +1,34 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.backdropImage {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mainFrame  {
+    display: grid;
+    place-items: start center;
+    position: fixed;
+    top: 55%;
+    left: 55%;
+}
+
+.questionBtn    {
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.divText    {
+    color: white;
+    font-family: 'Helvetica Neue';
+    position: fixed;
+    top: 60%;
+    font-size: 25px;
+}
